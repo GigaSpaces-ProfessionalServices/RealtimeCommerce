@@ -16,8 +16,8 @@ Running the Data Grid
 > cd space
 > mvn os:run-standalone -Dmodule=space
 
-Running the Data Grid
-=====================
+Running the Cart Web Application
+================================
 > cd cart
 > mvn jetty:run
 
