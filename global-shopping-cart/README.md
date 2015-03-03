@@ -13,8 +13,13 @@ Building
 
 Running the Data Grid
 =====================
-> cd space; mvn os:run-standalone -Dmodule=space
-> cd cart; mvn jetty:run
+> cd space
+> mvn os:run-standalone -Dmodule=space
+
+Running the Data Grid
+=====================
+> cd cart
+> mvn jetty:run
 
 Browse to http://localhost:8080/GigaShopping
 
