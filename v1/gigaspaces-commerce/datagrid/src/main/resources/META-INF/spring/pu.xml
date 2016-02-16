@@ -12,7 +12,8 @@
        http://www.openspaces.org/schema/remoting http://www.openspaces.org/schema/10.2/remoting/openspaces-remoting.xsd">
 
      <!-- Support @RemotingService component scanning -->
-    <context:component-scan base-package="com.gigaspaces.commerce"/>
+    <context:component-scan base-package="com.gigaspaces.commerce.*"/>
+ 	<context:component-scan base-package="com.gigaspaces.commerce.inventory.*"/>
 
     <!-- Support the @RemotingService annotation on a service-->
     <os-remoting:annotation-support/>
